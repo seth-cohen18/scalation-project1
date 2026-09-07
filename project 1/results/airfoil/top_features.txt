@@ -1,0 +1,9 @@
+Target: scaled_sound_pressure_level
+Correlation with target (sorted by |r|):
+  frequency: r = -0.3907
+  suction_side_displacement_thickness: r = -0.3127
+  chord_length: r = -0.2362
+  angle_of_attack: r = -0.1561
+  free_stream_velocity: r = 0.1251
+
+Top 2 features selected for simple regression: ['frequency', 'suction_side_displacement_thickness']

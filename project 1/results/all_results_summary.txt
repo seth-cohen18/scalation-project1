@@ -1,0 +1,18 @@
+=== auto_mpg ===
+cleaned shape: (392, 8)
+top 2 features: ['weight', 'displacement']
+  weight: R^2=0.6926, adjR^2=0.6918, b0=46.2165, b1=-0.0076, F=878.83, p=6.015e-102
+  displacement: R^2=0.6482, adjR^2=0.6473, b0=35.1206, b1=-0.0601, F=718.68, p=1.661e-90
+
+=== concrete ===
+cleaned shape: (1030, 9)
+top 2 features: ['cement', 'superplasticizer']
+  cement: R^2=0.2478, adjR^2=0.2471, b0=13.4428, b1=0.0796, F=338.73, p=1.323e-65
+  superplasticizer: R^2=0.1340, adjR^2=0.1332, b0=29.4668, b1=1.0239, F=159.11, p=5.079e-34
+
+=== airfoil ===
+cleaned shape: (1503, 6)
+top 2 features: ['frequency', 'suction_side_displacement_thickness']
+  frequency: R^2=0.1527, adjR^2=0.1521, b0=127.3037, b1=-0.0009, F=270.42, p=5.362e-56
+  suction_side_displacement_thickness: R^2=0.0978, adjR^2=0.0972, b0=126.6632, b1=-164.0275, F=162.64, p=1.925e-35
+

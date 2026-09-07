@@ -1,0 +1,12 @@
+Target: concrete_compressive_strength
+Correlation with target (sorted by |r|):
+  cement: r = 0.4978
+  superplasticizer: r = 0.3661
+  age: r = 0.3289
+  water: r = -0.2896
+  fine_aggregate: r = -0.1672
+  coarse_aggregate: r = -0.1649
+  blast_furnace_slag: r = 0.1348
+  fly_ash: r = -0.1058
+
+Top 2 features selected for simple regression: ['cement', 'superplasticizer']

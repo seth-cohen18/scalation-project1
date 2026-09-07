@@ -1,0 +1,7 @@
+Preprocessing log for auto_mpg
+Raw shape: (392, 8), cleaned shape: (392, 8)
+Expected: 392 rows, 8 columns
+
+- No missing values found (dataset was pre-cleaned during the .data/.dat -> .csv conversion for auto_mpg/airfoil, or had none originally for concrete).
+- No string columns present (car name / identifier columns, if any, were excluded during CSV conversion).
+- IQR-rule outlier counts per column (flagged, not removed, since they reflect real variability in a modest-size dataset): {'horsepower': 10, 'acceleration': 11}.

@@ -1,0 +1,7 @@
+Preprocessing log for airfoil
+Raw shape: (1503, 6), cleaned shape: (1503, 6)
+Expected: 1503 rows, 6 columns
+
+- No missing values found (dataset was pre-cleaned during the .data/.dat -> .csv conversion for auto_mpg/airfoil, or had none originally for concrete).
+- No string columns present (car name / identifier columns, if any, were excluded during CSV conversion).
+- IQR-rule outlier counts per column (flagged, not removed, since they reflect real variability in a modest-size dataset): {'frequency': 86, 'angle_of_attack': 30, 'suction_side_displacement_thickness': 124, 'scaled_sound_pressure_level': 4}.

@@ -1,0 +1,11 @@
+Target: mpg
+Correlation with target (sorted by |r|):
+  weight: r = -0.8322
+  displacement: r = -0.8051
+  horsepower: r = -0.7784
+  cylinders: r = -0.7776
+  model_year: r = 0.5805
+  origin: r = 0.5652
+  acceleration: r = 0.4233
+
+Top 2 features selected for simple regression: ['weight', 'displacement']

@@ -1,0 +1,71 @@
+﻿[info] running (fork) project1.project1_concrete 
+readFileIntoArray: C:/Users/sethc/OneDrive/Documents/senior year uga/first sem/data sci ml/project 1/data/concrete.csv
+readFileIntoArray: number lines = 1031
+readFileIntoArray: lines 0 = cement,blast_furnace_slag,fly_ash,water,superplasticizer,coarse_aggregate,fine_aggregate,age,concrete_compressive_strength
+readFileIntoArray: lines 1 = 540.0,0.0,0.0,162.0,2.5,1040.0,676.0,28,79.98611076
+load: read 999 data rows so far ...
+load: read in an 1030-by-9 matrix from C:/Users/sethc/OneDrive/Documents/senior year uga/first sem/data sci ml/project 1/data/concrete.csv
+---------------------------------------------------------------------------------------------
+| Project 1 - Concrete Compressive Strength: SimpleRegression on top-2 features (ScalaTion) |
+---------------------------------------------------------------------------------------------
+dataset shape = 1030 x 9, target = concrete_compressive_strength
+b = VectorD(13.4428,	0.0795796), fn = [Ljava.lang.String;@4d339552
+
+REPORT
+    ----------------------------------------------------------------------------
+    modelName  mn  = SimpleRegression_cement
+    ----------------------------------------------------------------------------
+    hparameter hp  = null
+    ----------------------------------------------------------------------------
+    features   fn  = Array(one, cement)
+    ----------------------------------------------------------------------------
+    parameter  b   = VectorD(13.4428,	0.0795796)
+    ----------------------------------------------------------------------------
+    fitMap     qof = LinkedHashMap(rSq -> 0.247837, rSqBar -> 0.247106, sst -> 287173.028478, sse -> 216000.806188, sde -> 14.488386, rse -> 14.495431, mse0 -> 209.709521, rmse -> 14.481351, mae -> 11.851871, smape -> 36.311902, bmae -> 49.246705, m -> 1030.000000, dfr -> 1.000000, df -> 1028.000000, fStat -> 338.725794, aic -> -4210.554208, bic -> -4200.679580, mape -> 49.910284, mase -> 1.095895, smapeC -> 36.315785, picp -> -1.000000, pinc -> -1.000000, ace -> -1.000000, pinaw -> -1.000000, mis -> -1.000000, wis -> -1.000000)
+    ----------------------------------------------------------------------------
+        
+fname = Array(one, cement)
+SUMMARY
+    Parameters/Coefficients:
+    Var      Estimate    Std. Error 	 t value 	 Pr(>|t|) 	 VIF
+----------------------------------------------------------------------------------
+    x0	 13.442795	 1.296925	 10.365129	 0.000000	 NA
+    x1	 0.079580	 0.004324	 18.404505	 0.000000	 1.000000
+
+    Residual standard error: 14.495431 on 1028.0 degrees of freedom
+    Multiple R-squared:  0.247837,	Adjusted R-squared:  0.247106
+    F-statistic: 338.7257936916475 on 1.0 and 1028.0 DF,  p-value: -0.0
+----------------------------------------------------------------------------------
+        
+MatrixD.write: matrix with dims = (1030,3) written to C:/Users/sethc/OneDrive/Documents/senior year uga/first sem/data sci ml/project 1/results/concrete/scalation_pred_cement.csv
+b = VectorD(29.4668,	1.02385), fn = [Ljava.lang.String;@1d119efb
+
+REPORT
+    ----------------------------------------------------------------------------
+    modelName  mn  = SimpleRegression_superplasticizer
+    ----------------------------------------------------------------------------
+    hparameter hp  = null
+    ----------------------------------------------------------------------------
+    features   fn  = Array(one, superplasticizer)
+    ----------------------------------------------------------------------------
+    parameter  b   = VectorD(29.4668,	1.02385)
+    ----------------------------------------------------------------------------
+    fitMap     qof = LinkedHashMap(rSq -> 0.134031, rSqBar -> 0.133189, sst -> 287173.028478, sse -> 248682.971207, sde -> 15.545881, rse -> 15.553440, mse0 -> 241.439778, rmse -> 15.538333, mae -> 12.615474, smape -> 38.158411, bmae -> 48.282956, m -> 1030.000000, dfr -> 1.000000, df -> 1028.000000, fStat -> 159.109322, aic -> -4283.116028, bic -> -4273.241400, mape -> 54.595327, mase -> 1.074448, smapeC -> 38.162294, picp -> -1.000000, pinc -> -1.000000, ace -> -1.000000, pinaw -> -1.000000, mis -> -1.000000, wis -> -1.000000)
+    ----------------------------------------------------------------------------
+        
+fname = Array(one, superplasticizer)
+SUMMARY
+    Parameters/Coefficients:
+    Var      Estimate    Std. Error 	 t value 	 Pr(>|t|) 	 VIF
+----------------------------------------------------------------------------------
+    x0	 29.466751	 0.698839	 42.165264	 0.000000	 NA
+    x1	 1.023855	 0.081169	 12.613854	 0.000000	 1.000000
+
+    Residual standard error: 15.553440 on 1028.0 degrees of freedom
+    Multiple R-squared:  0.134031,	Adjusted R-squared:  0.133189
+    F-statistic: 159.1093217311018 on 1.0 and 1028.0 DF,  p-value: -0.0
+----------------------------------------------------------------------------------
+        
+MatrixD.write: matrix with dims = (1030,3) written to C:/Users/sethc/OneDrive/Documents/senior year uga/first sem/data sci ml/project 1/results/concrete/scalation_pred_superplasticizer.csv
+[success] elapsed time: 5 s
+[0J

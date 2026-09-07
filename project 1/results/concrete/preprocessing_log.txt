@@ -1,0 +1,7 @@
+Preprocessing log for concrete
+Raw shape: (1030, 9), cleaned shape: (1030, 9)
+Expected: 1030 rows, 9 columns
+
+- No missing values found (dataset was pre-cleaned during the .data/.dat -> .csv conversion for auto_mpg/airfoil, or had none originally for concrete).
+- No string columns present (car name / identifier columns, if any, were excluded during CSV conversion).
+- IQR-rule outlier counts per column (flagged, not removed, since they reflect real variability in a modest-size dataset): {'blast_furnace_slag': 2, 'water': 9, 'superplasticizer': 10, 'fine_aggregate': 5, 'age': 59, 'concrete_compressive_strength': 4}.

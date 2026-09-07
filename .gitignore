@@ -1,0 +1,30 @@
+# sbt / Scala build artifacts
+scalation-app/target/
+scalation-app/project/target/
+scalation-app/project/project/
+scalation-app/.bsp/
+scalation-app/.bloop/
+scalation-app/.metals/
+
+# LaTeX build artifacts
+project 1/report/*.aux
+project 1/report/*.log
+project 1/report/*.out
+project 1/report/*.toc
+project 1/report/*.synctex.gz
+project 1/report/*.fls
+project 1/report/*.fdb_latexmk
+
+# Python
+__pycache__/
+*.pyc
+
+# Redundant packaged copy (repo already has everything unpacked)
+project 1/project1_submission.zip
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# Claude Code session-local state
+.claude/
