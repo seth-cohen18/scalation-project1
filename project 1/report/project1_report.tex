@@ -111,11 +111,11 @@ simple regressions below.
 \textbf{Statsmodels fit report:}
 \lstinputlisting{../results/auto_mpg/ols_summary_weight.txt}
 
-\textbf{Summary statement:} Both tools agree exactly on
-$\hat{y} = 46.2165 - 0.0076\,x$. Each additional pound of vehicle weight is
-associated with a decrease of about 0.0076 mpg; the model explains 69.3\%
-of the variance in mpg ($R^2=0.6926$, adj.\ $R^2=0.6918$), and the slope is
-highly statistically significant ($F=878.83$, $p<0.001$).
+\textbf{Summary statement:} ScalaTion and Statsmodels landed on the same
+fitted line: $\hat{y} = 46.2165 - 0.0076\,x$. Every extra pound of vehicle
+weight costs about 0.0076 mpg, and the fit is reasonably strong for a single
+predictor, explaining 69.3\% of the variance in mpg ($R^2=0.6926$, adj.\
+$R^2=0.6918$). The slope is highly significant ($F=878.83$, $p<0.001$).
 
 \begin{figure}[H]
     \centering
@@ -137,11 +137,11 @@ highly statistically significant ($F=878.83$, $p<0.001$).
 \textbf{Statsmodels fit report:}
 \lstinputlisting{../results/auto_mpg/ols_summary_displacement.txt}
 
-\textbf{Summary statement:} Both tools agree exactly on
-$\hat{y} = 35.1206 - 0.0601\,x$. Each additional cubic inch of engine
-displacement is associated with a decrease of about 0.06 mpg; the model
-explains 64.8\% of the variance in mpg ($R^2=0.6482$, adj.\ $R^2=0.6473$),
-and the slope is highly statistically significant ($F=718.68$, $p<0.001$).
+\textbf{Summary statement:} The fitted line, $\hat{y} = 35.1206 - 0.0601\,x$,
+is identical between the two tools. Each additional cubic inch of
+displacement costs about 0.06 mpg, and the model explains 64.8\% of the
+variance ($R^2=0.6482$, adj.\ $R^2=0.6473$), with a highly significant slope
+($F=718.68$, $p<0.001$).
 
 \begin{figure}[H]
     \centering
@@ -157,20 +157,18 @@ and the slope is highly statistically significant ($F=718.68$, $p<0.001$).
 \end{figure}
 
 \subsection{Discussion}
-Both predictors yield a strong, statistically significant negative linear
+Both predictors show a strong, statistically significant negative
 relationship with fuel economy: heavier cars with larger engines get fewer
-miles per gallon, consistent with basic physics (more mass and displacement
-require more fuel to move). \texttt{weight} is the single best univariate
-predictor ($R^2 \approx 0.69$), narrowly ahead of \texttt{displacement}
-($R^2 \approx 0.65$); the two are themselves highly correlated ($r=0.93$,
-see heatmap), so they capture overlapping information about vehicle size.
-ScalaTion and Statsmodels produce numerically identical coefficients and
-$R^2$ values, as expected for ordinary least squares fit on the same data --
-this agreement is a useful sanity check that both toolchains are correctly
-configured. Neither univariate model fully explains \texttt{mpg}
-($R^2 < 0.70$), suggesting a multiple regression using several of these
-correlated features together (or a nonlinear model) would fit noticeably
-better.
+miles per gallon, which lines up with basic physics, since moving more mass
+takes more fuel. \texttt{weight} is the better single predictor
+($R^2 \approx 0.69$ versus $0.65$ for \texttt{displacement}), though the two
+are correlated with each other at $r=0.93$ and so are largely capturing the
+same thing: overall vehicle size. ScalaTion and Statsmodels produced
+identical coefficients and $R^2$ values, which is expected for the same
+least-squares problem and confirms both were set up correctly. Neither model
+explains more than 70\% of the variance in \texttt{mpg} on its own, so a
+multiple regression combining several of these features, or a nonlinear
+model, would likely fit better.
 
 \clearpage
 \section{Concrete Compressive Strength Dataset}
@@ -190,9 +188,9 @@ snake\_case names (\texttt{cement}, \texttt{blast\_furnace\_slag},
 \texttt{concrete\_compressive\_strength}), and written out as a plain CSV.
 The dataset has no missing values and no string columns, so no rows were
 dropped; its cleaned shape (1030, 9) matches the documented dataset size
-exactly. An IQR-rule check flags outliers in several columns (most
-prominently \texttt{age}, with 59 flagged values, since age ranges from 1 to
-365 days and is heavily right-skewed) -- these were kept, as they represent
+exactly. An IQR-rule check flags outliers in several columns, most
+prominently \texttt{age} (59 flagged values, since age ranges from 1 to 365
+days and is heavily right-skewed). These were kept, since they represent
 valid experimental conditions rather than data-entry errors.
 \end{sloppypar}
 
@@ -237,12 +235,11 @@ both the ScalaTion and Statsmodels simple regressions below.
 \textbf{Statsmodels fit report:}
 \lstinputlisting{../results/concrete/ols_summary_cement.txt}
 
-\textbf{Summary statement:} Both tools agree exactly on
-$\hat{y} = 13.4428 + 0.0796\,x$. Each additional kg/m$^3$ of cement is
-associated with an increase of about 0.08 MPa in compressive strength; the
-model explains only 24.8\% of the variance ($R^2=0.2478$, adj.\
-$R^2=0.2471$), though the slope is highly statistically significant
-($F=338.73$, $p<0.001$).
+\textbf{Summary statement:} ScalaTion and Statsmodels again agree exactly:
+$\hat{y} = 13.4428 + 0.0796\,x$. Each extra kg/m$^3$ of cement adds roughly
+0.08 MPa of compressive strength, though the model only accounts for 24.8\%
+of the variance ($R^2=0.2478$, adj.\ $R^2=0.2471$). The slope itself is
+still highly significant ($F=338.73$, $p<0.001$).
 
 \begin{figure}[H]
     \centering
@@ -264,12 +261,11 @@ $R^2=0.2471$), though the slope is highly statistically significant
 \textbf{Statsmodels fit report:}
 \lstinputlisting{../results/concrete/ols_summary_superplasticizer.txt}
 
-\textbf{Summary statement:} Both tools agree exactly on
-$\hat{y} = 29.4668 + 1.0239\,x$. Each additional kg/m$^3$ of
-superplasticizer is associated with an increase of about 1.02 MPa in
-compressive strength; the model explains only 13.4\% of the variance
-($R^2=0.1340$, adj.\ $R^2=0.1332$), though the slope is highly
-statistically significant ($F=159.11$, $p<0.001$).
+\textbf{Summary statement:} Here the two tools agree on
+$\hat{y} = 29.4668 + 1.0239\,x$. Each extra kg/m$^3$ of superplasticizer
+adds about 1.02 MPa of strength, but this predictor alone only explains
+13.4\% of the variance ($R^2=0.1340$, adj.\ $R^2=0.1332$); the slope is
+nonetheless highly significant ($F=159.11$, $p<0.001$).
 
 \begin{figure}[H]
     \centering
@@ -285,19 +281,16 @@ statistically significant ($F=159.11$, $p<0.001$).
 \end{figure}
 
 \subsection{Discussion}
-Compressive strength is a genuinely multivariate phenomenon -- it depends
-simultaneously on the amounts of cement, water, various admixtures, and
-curing age -- so no single ingredient explains most of the variance on its
-own. \texttt{cement} content is the strongest univariate predictor, but it
-only accounts for about 25\% of the variance ($R^2 = 0.25$), and
-\texttt{superplasticizer} explains just 13\%. Both relationships are positive
-and highly statistically significant, matching material-science expectations
-(more cement binder and more superplasticizer, which improves workability at
-low water content, both tend to increase strength), but the wide scatter
-visible in the fit plots shows that a simple one-variable model is a poor
-overall predictor here -- unlike Auto MPG, this dataset would benefit
-substantially from multiple regression using all 8 ingredient/age features
-together.
+Compressive strength depends on cement, water, several admixtures, and
+curing age all at once, so it is not surprising that no single ingredient
+explains most of the variance. \texttt{cement} is the strongest univariate
+predictor, but it only reaches $R^2 = 0.25$; \texttt{superplasticizer}
+explains just 13\%. Both effects are positive and highly significant, which
+matches basic concrete chemistry: more cement binder and more
+superplasticizer, which improves workability at low water content, both tend
+to raise strength. Still, the scatter in the fit plots is wide. Unlike Auto
+MPG, this dataset would need a multiple regression across all 8 ingredient
+and age features to fit well.
 
 \clearpage
 \section{Airfoil Self-Noise Dataset}
@@ -318,7 +311,7 @@ dataset's documentation. There are no missing values and no string columns,
 so no rows were dropped, and the cleaned shape (1503, 6) matches the
 documented size exactly. An IQR-rule check flags a substantial number of
 outliers in \texttt{frequency} (86), \texttt{angle\_of\_attack} (30), and
-\texttt{suction\_side\_displacement\_thickness} (124) -- these reflect the
+\texttt{suction\_side\_displacement\_thickness} (124). These reflect the
 wide range of physical test conditions used in the wind-tunnel experiments
 (frequency spans 200--20{,}000 Hz) rather than data-quality problems, so all
 rows were retained.
@@ -366,12 +359,11 @@ below.
 \textbf{Statsmodels fit report:}
 \lstinputlisting{../results/airfoil/ols_summary_frequency.txt}
 
-\textbf{Summary statement:} Both tools agree exactly on
-$\hat{y} = 127.3037 - 0.0009\,x$. Each additional Hz of frequency is
-associated with a decrease of about 0.0009 dB in sound pressure level; the
-model explains only 15.3\% of the variance ($R^2=0.1527$, adj.\
-$R^2=0.1521$), though the slope is highly statistically significant
-($F=270.42$, $p<0.001$).
+\textbf{Summary statement:} The two fits again match:
+$\hat{y} = 127.3037 - 0.0009\,x$. Each additional Hz of frequency lowers
+sound pressure level by about 0.0009 dB, and this single feature explains
+only 15.3\% of the variance ($R^2=0.1527$, adj.\ $R^2=0.1521$), despite a
+highly significant slope ($F=270.42$, $p<0.001$).
 
 \begin{figure}[H]
     \centering
@@ -393,13 +385,13 @@ $R^2=0.1521$), though the slope is highly statistically significant
 \textbf{Statsmodels fit report:}
 \lstinputlisting{../results/airfoil/ols_summary_suction_side_displacement_thickness.txt}
 
-\textbf{Summary statement:} Both tools agree exactly on
-$\hat{y} = 126.6632 - 164.0275\,x$. Each additional meter of suction-side
-displacement thickness is associated with a decrease of about 164 dB in
-sound pressure level (this feature ranges only from about 0.0004 to 0.058
-m, so realistic changes correspond to a few dB); the model explains only
-9.8\% of the variance ($R^2=0.0978$, adj.\ $R^2=0.0972$), though the slope
-is highly statistically significant ($F=162.64$, $p<0.001$).
+\textbf{Summary statement:} ScalaTion and Statsmodels once more agree:
+$\hat{y} = 126.6632 - 164.0275\,x$. The slope looks dramatic (a full meter
+of suction-side displacement thickness would cost 164 dB), but this feature
+only ranges from about 0.0004 to 0.058 m in the data, so realistic changes
+amount to a few dB at most. The model explains just 9.8\% of the variance
+($R^2=0.0978$, adj.\ $R^2=0.0972$), though the slope remains highly
+significant ($F=162.64$, $p<0.001$).
 
 \begin{figure}[H]
     \centering
@@ -415,19 +407,17 @@ is highly statistically significant ($F=162.64$, $p<0.001$).
 \end{figure}
 
 \subsection{Discussion}
-Of the three datasets studied, Airfoil Self-Noise shows the weakest linear
-relationships: even the best single predictor, \texttt{frequency}, explains
-only about 15\% of the variance in sound pressure level, and the boundary-
-layer \texttt{suction\_side\_displacement\_thickness} feature explains under
-10\%. Both relationships are negative and statistically significant, but the
-low $R^2$ values and the wide scatter in the fit plots indicate that
-aerodynamic self-noise is driven by a more complex, likely nonlinear and
-multivariate interaction of frequency, angle of attack, geometry, and flow
-velocity -- consistent with the physics of turbulent boundary-layer noise
-generation, which does not vary linearly with any single parameter. This
-dataset would likely require a nonlinear or multiple-regression model (or the
-neural-network approaches used in the original NASA study) to achieve strong
-predictive accuracy.
+Airfoil Self-Noise has the weakest linear relationships of the three
+datasets. Even the best single predictor, \texttt{frequency}, explains only
+about 15\% of the variance in sound pressure level, and
+\texttt{suction\_side\_displacement\_thickness} explains under 10\%. Both
+effects are negative and statistically significant, but the low $R^2$ values
+and wide scatter in the fit plots point to something more complex:
+aerodynamic self-noise depends on frequency, angle of attack, geometry, and
+flow velocity together, and turbulent boundary-layer noise does not scale
+linearly with any one of them. Getting strong predictive accuracy here would
+likely take a nonlinear or multiple-regression model, or the neural-network
+approach the original NASA study used.
 
 \clearpage
 \section*{Cross-Dataset Summary}
@@ -441,9 +431,8 @@ predictive accuracy.
     \texttt{frequency}); self-noise generation is a complex, nonlinear
     aerodynamic phenomenon poorly captured by any single linear predictor.
 \end{itemize}
-In every case, ScalaTion's \texttt{SimpleRegression} and Python's Statsmodels
-\texttt{OLS} produced numerically identical coefficients and $R^2$ values,
-confirming both implementations solve the same least-squares problem
-correctly.
+ScalaTion's \texttt{SimpleRegression} and Python's Statsmodels \texttt{OLS}
+produced identical coefficients and $R^2$ values across all three datasets,
+since both are solving the same least-squares problem.
 
 \end{document}
