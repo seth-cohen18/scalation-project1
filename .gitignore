@@ -2,9 +2,13 @@
 scalation-app/target/
 scalation-app/project/target/
 scalation-app/project/project/
-scalation-app/.bsp/
-scalation-app/.bloop/
-scalation-app/.metals/
+
+# Editor / IDE state (Metals, VS Code, Bloop, BSP) - matches at any depth
+.metals/
+.bloop/
+.bsp/
+.vscode/
+.idea/
 
 # LaTeX build artifacts
 project 1/report/*.aux
