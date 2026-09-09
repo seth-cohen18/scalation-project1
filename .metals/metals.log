@@ -1,0 +1,149 @@
+2026.09.09 15:48:37 INFO  Started: Metals version 1.6.8 in folders 'C:\Users\mahim\Data Science\scalation-project1' for client Visual Studio Code 1.136.2.
+2026.09.09 15:48:37 INFO  Memory monitor started
+2026.09.09 15:48:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.09 15:48:42 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:48:45 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:19 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:19 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026.09.09 15:49:19 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:22 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:22 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:22 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:22 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 3:49:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2026.09.09 15:49:22 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:23 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:23 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:24 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:25 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:24 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:25 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:26 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:25 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:26 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:26 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:26 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:26 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:26 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:26 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 3:49:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2026.09.09 15:49:27 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:28 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:29 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:29 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:28 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:29 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:28 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 3:49:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2026.09.09 15:49:28 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 3:49:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Sep 09, 2026 3:49:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+2026.09.09 15:49:28 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:30 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:30 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 3:49:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Sep 09, 2026 3:49:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2026.09.09 15:49:30 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:30 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:30 WARN  no build target for: C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala
+2026.09.09 15:49:30 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:30 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:31 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:31 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:31 WARN  no build target for: C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala
+2026.09.09 15:49:31 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:49:32 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 3:50:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.09 15:50:43 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 3:50:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.09 15:50:52 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 15:52:25 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:29 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:30 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:29 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:29 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:37 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:37 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:37 WARN  no build target for: C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala
+Sep 09, 2026 4:01:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 79
+2026.09.09 16:01:37 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 4:01:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+2026.09.09 16:01:37 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:37 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:01:39 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:03:27 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:03:29 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:03:33 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:04:01 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:04:44 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:36 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:36 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 4:05:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+2026.09.09 16:05:36 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:40 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:42 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:42 WARN  no build target for: C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala
+2026.09.09 16:05:42 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:43 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:45 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:45 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\project 1\scala\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:46 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:46 WARN  no build target for: C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala
+2026.09.09 16:05:46 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:46 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:49 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:49 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:49 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:49 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:51 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:51 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:52 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:52 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:52 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:52 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:52 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:53 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:53 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:53 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 4:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+2026.09.09 16:05:53 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:53 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:53 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:54 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:54 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:54 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:54 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:55 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:55 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:55 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:55 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:56 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:57 WARN  no build target for: C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala
+2026.09.09 16:05:57 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:57 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:05:58 WARN  no build target for: C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala
+2026.09.09 16:05:58 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:25:45 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.09 16:26:06 INFO  no build target found for C:\Users\mahim\Data Science\scalation-project1\scalation-app\src\main\scala\project1\Project1EDA.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 09, 2026 4:26:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232

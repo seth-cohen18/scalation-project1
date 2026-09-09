@@ -10,10 +10,8 @@ import scalation.modeling.SimpleRegression
  */
 object Project1EDA:
 
-    private val DATA_DIR =
-        "C:/Users/sethc/OneDrive/Documents/senior year uga/first sem/data sci ml/project 1/data/"
-    private val RESULTS_DIR =
-        "C:/Users/sethc/OneDrive/Documents/senior year uga/first sem/data sci ml/project 1/results/"
+    private val DATA_DIR = "../project 1/data/"
+    private val RESULTS_DIR = "../project 1/results/"
 
     /** Load a cleaned, numeric CSV (with header) and run SimpleRegression of
      *  target ~ feature for each feature in topFeatures.  Writes (x, y, yp)
